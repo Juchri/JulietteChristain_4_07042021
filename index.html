@@ -2,21 +2,27 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-	<title> La chouette agence </title>>
+	<title> La chouette agence. </title>
     <meta name="keywords" content="entreprise web design lyon, agence UX lyon, start-up lyon, site design, site adapté, graphisme personnalisé, illustrations personalisées ">
-    <meta name="description" content="La chouette agence est une agence de web design à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet. Proposant des activités de web design, notre start-up s'adapte à une stratégie répondant aux besoins votre entreprise et des illustrations et graphismes adaptés à l'identité de votre marque.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+    <meta name="description" content="La chouette agence est une agence de web design à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet. Proposant des activités de web design, notre start-up s'adapte à une stratégie répondant aux besoins votre entreprise et des illustrations et graphismes adaptés à l'identité de votre marque." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.min.css" />
 	<script src="https://kit.fontawesome.com/27350ed8ab.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 
-    <title>La chouette agence.</title>
+	<script src="./js/jquery-2.1.0.min.js" defer></script>
+	<script src="./js/bootstrap.min.js" defer></script>
+	<script src="./js/blocs.min.js" defer></script>
+	<script src="./js/jquery.touchSwipe.min.js" defer></script>
+	<script src="./js/gmaps.min.js" defer></script>
+
+	<link rel="preload" as="image" href="img/image-de-presentation.jpeg">
 
 <!-- Analytics -->
-
+<!-- Connecter au compte google analytics-->
 <!-- Analytics END -->
 </head>
 <body>
@@ -42,7 +48,7 @@
 					<li>
 					</li>
 					<li>
-						<a href="contact-la-chouette-agence.html">Contact</a>
+						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -56,12 +62,12 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Illustration de la chouette agence, agence web design lyon" />
+				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo de la chouette agence, agence web design lyon" />
 				<h1 class="text-center hero-bloc-text tc-tangerine ">
 					La chouette agence.
 				</h1>
 				<div class="text-center">
-					<a href="contact-la-chouette-agence.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 				</div>
 			</div>
 		</div>
@@ -131,7 +137,7 @@
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 				</h3>
 				<p class="text-center white">
-					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="contact-la-chouette-agence.html">Contactez notre équipe</a><br>
+					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a><br>
 				</p>
 			</div>
 		</div>
@@ -169,7 +175,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" alt="Création d'un site web pour voyageur" class="img-responsive portfolio-thumb" /></a>
+				<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.jpg" alt="Création d'un site web pour voyageur" class="img-responsive portfolio-thumb" /></a>
 				<h4 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
 				</h4>
@@ -178,7 +184,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" alt="Création d'un site web pour agence de mariage" class="img-responsive portfolio-thumb" /></a>
+				<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.jpg" alt="Création d'un site web pour agence de mariage" class="img-responsive portfolio-thumb" /></a>
 				<h4 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
 				</h4>
@@ -199,7 +205,7 @@
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
 			<div class="col-sm-12 text-center">
-				<a href="contact-la-chouette-agence.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+				<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 			</div>
 		</div>
 	</div>
@@ -222,7 +228,7 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a aria-label="Lien facebook vers compte de La chouette agence" class="social" href="https://www.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
+							<a aria-label="Lien vers compte facebook de La chouette agence" class="social" href="https://www.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
